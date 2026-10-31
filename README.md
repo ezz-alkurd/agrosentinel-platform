@@ -22,7 +22,7 @@ This repository contains the Flutter app, Python detection and plant services, a
 | `training/` | Current preparation tools and older trainers; observe training boundary below |
 | `data/` | Source registry/manifests and metadata examples, not raw images |
 | `deployment/` | Hosting and environment requirements |
-| `scripts/` | Source verification and private-repository publishing |
+| `scripts/` | Source verification, packaging and publishing utilities |
 | `docs/` | Current decisions and data audit reports |
 
 ## Local configuration and data
