@@ -1,0 +1,23 @@
+rules_version = '2';
+
+// AgroSentinel Storage rules (OPTIONAL).
+// The app displays detection images via the tokenized download URL stored on
+// each event (image_url), which works WITHOUT these rules. Publish these only
+// if you also want the app's storage-path fallback (getDownloadURL) to work.
+//
+// - Detection images are WRITTEN by the backend (Admin SDK), which bypasses rules.
+// - Signed-in users may READ detection images.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    match /detections/{allPaths=**} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

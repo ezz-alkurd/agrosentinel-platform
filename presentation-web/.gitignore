@@ -1,0 +1,2 @@
+# Large supplied media remain in the handoff/publish package, outside Git.
+wwwroot/media/*.mp4

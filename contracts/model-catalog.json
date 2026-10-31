@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "models": [
+    {"id":"plant-closeup","owner":"Sara Hamdan","ownership":"proposed","input_view":"closeup-ground-rgb","task":"classification-or-reviewed-detection","active_release":null,"status":"new-release-required","experimental_sources":["PlantWild v2","PlantDoc"]},
+    {"id":"plant-far","owner":"Raneen Abdullah","ownership":"proposed","input_view":"distant-aerial-rgb","task":"detection-or-segmentation","active_release":null,"status":"new-release-required","experimental_sources":["GYMNSA RGB pear rust"],"notes":"Specialized NIR-sensitive potato experiments do not establish general consumer RGB compatibility."},
+    {"id":"fire-smoke","owner":"Dina Afram","ownership":"confirmed-by-user","input_view":"scene-rgb","task":"detection","active_release":null,"status":"owner-training-work-in-progress","experimental_sources":[]}
+  ],
+  "future_extensions": [{"id":"soil","enabled":false,"notes":"Input modality and validated target measurements must be defined before implementation."}]
+}

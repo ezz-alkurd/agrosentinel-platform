@@ -1,0 +1,21 @@
+{
+  "cloud_write": false,
+  "actual_model_inference": true,
+  "confirmation_seconds": 2,
+  "received": [
+    {
+      "label": "fire",
+      "confidence": 0.9875257015228271,
+      "bbox": [
+        0,
+        0,
+        1397,
+        934
+      ],
+      "context": {
+        "source_type": "Offline integration check; no cloud write",
+        "captured_at": "2026-10-24T16:23:16.081361+00:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "release": "doctor-demo-2026-10-24",
+  "status": "rehearsal-only; not validated for general field use",
+  "artifacts": {
+    "fire_best.pt": {
+      "path": "../_archive/reorganization-2026-10-17/historical-contributions/sara/models/best.pt",
+      "role": "fire-camera",
+      "task": "detect",
+      "labels": [
+        "fire"
+      ],
+      "sha256": "21c01598b495243d32fb020f9f2adc27359847436bab5992a6c0d4909080521a"
+    },
+    "plant_disease_best.pt": {
+      "path": "../_archive/old-models/plant_disease_yolov8_best.pt",
+      "role": "tomato-closeup-photo",
+      "model_id": "plant-closeup-demo-tomato-3",
+      "task": "classify",
+      "supported_crops": [
+        "tomato"
+      ],
+      "classes": 3,
+      "sha256": "67055b61ae7ac89c5e3dc516592a773bbee34250721684a72afe7faab4c9c836"
+    }
+  }
+}

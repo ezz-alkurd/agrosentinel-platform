@@ -1,0 +1,92 @@
+name: agri_drone_ai
+description: Camera-based agricultural monitoring and AI analysis
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Dependency Injection
+  get_it: ^7.7.0
+
+  # Networking
+  dio: ^5.7.0
+
+  # Functional Error Handling
+  dartz: ^0.10.1
+
+  # Image Picking (AI Diagnostic)
+  image_picker: ^1.1.2
+
+  # Local image decoding/preprocessing; ONNX inference uses the Android native runtime.
+  image: 4.8.0
+
+  # UI
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+
+  # Map
+  google_maps_flutter: ^2.9.0
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+
+  # Internationalization (must match the version pinned by flutter_localizations)
+  intl: ^0.20.2
+
+  cupertino_icons: ^1.0.8
+
+  # The Android release registrant references this native plugin.
+  flutter_native_splash: ^2.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+# App launcher icon — run:  dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#070B09"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+# Boot splash screen — run:  dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#070B09"
+  image: "assets/icon/splash_icon.png"
+  branding: "assets/icon/splash_branding.png"
+  android: true
+  ios: false
+  web: false
+  android_12:
+    color: "#070B09"
+    image: "assets/icon/splash_icon.png"
+    branding: "assets/icon/splash_branding.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/models/
+    - assets/branding/

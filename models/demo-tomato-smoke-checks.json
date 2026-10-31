@@ -1,0 +1,38 @@
+[
+  {
+    "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_0cb9fe6feaef81f3b6bf.jpg",
+    "expected": "Tomato_Early_blight",
+    "prediction": "Tomato_Late_blight",
+    "confidence": 0.5071319341659546
+  },
+  {
+    "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_2cafd9faaee5bfea8703.jpg",
+    "expected": "Tomato_Early_blight",
+    "prediction": "Tomato_Early_blight",
+    "confidence": 0.8005040287971497
+  },
+  {
+    "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_33947e74097348d7ecdf.jpg",
+    "expected": "Tomato_Early_blight",
+    "prediction": "Tomato_Late_blight",
+    "confidence": 0.8734897971153259
+  },
+  {
+    "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_0f4c39aea021090e91f5.jpg",
+    "expected": "Tomato_Late_blight",
+    "prediction": "Tomato_Late_blight",
+    "confidence": 0.6999750733375549
+  },
+  {
+    "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_1747792ca1c831bee84b.jpg",
+    "expected": "Tomato_Late_blight",
+    "prediction": "Tomato_Late_blight",
+    "confidence": 0.9990774393081665
+  },
+  {
+    "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_316f03f28dfe5b92134f.jpg",
+    "expected": "Tomato_Late_blight",
+    "prediction": "Tomato_Late_blight",
+    "confidence": 0.9835875630378723
+  }
+]

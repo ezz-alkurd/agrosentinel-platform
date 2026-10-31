@@ -1,0 +1,26 @@
+{
+  "updated_on": "2026-10-05",
+  "scope": "Broad crop coverage through compatible model-specific collections; first acquisition is a pilot.",
+  "research_preparation": {
+    "version": "v1",
+    "prepared_on": "2026-10-05",
+    "location": "prepared/v1",
+    "exported_images": 21888,
+    "quarantined_images": 332,
+    "agreeing_exact_pixel_copies_omitted": 272,
+    "structural_verification": "passed",
+    "biological_label_validation": "pending",
+    "model_training": "not_started",
+    "report": "../../docs/PLANT_DATA_PREPARATION.md"
+  },
+  "datasets": [
+    {"id":"plantdoc", "priority":1, "source":"https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset", "task":"close-range detection; reviewed boxes may produce classification crops", "license":"CC BY 4.0", "status":"acquired_and_audited_review_required", "pinned_commit":"4730a233a555b30ee98e0879c63ad25d82407455", "cautions":["Internet-sourced labels require review", "12 exact duplicate groups detected", "18 images lack matching table entries; 3 table references lack matching images; 11 boxes require review", "Keep crops and originals in the same group", "Do not treat Cropped PlantDoc as independent"]},
+    {"id":"potato-uav", "priority":1, "source":"https://zenodo.org/records/10727413", "task":"aerial patch classification", "license":"CC BY 4.0; verified in Zenodo API on 2026-10-03", "status":"acquired_and_audited_review_required", "cautions":["Modified RGB/NIR-sensitive camera", "7662 image files but 7660 metadata rows; two 2019 folder labels disagree with metadata", "One target: potato Alternaria/early blight", "Other/no Alternaria does not mean healthy potato", "Group by original image and flight; consider year-held-out evaluation"]},
+    {"id":"plantwild-v2", "priority":2, "source":"https://tqwei05.github.io/PlantWild/", "download_source":"https://huggingface.co/datasets/uqtwei2/PlantWild", "pinned_commit":"527a72eb8f00c95e41698bb09d982c7d4625dce3", "task":"close-range classification", "license":"CC BY-NC-ND 4.0; author page and repository metadata", "status":"acquired_and_audited_review_required", "image_files":11488, "source_class_folders":115, "cautions":["Published SHA-256 and ZIP integrity verified", "Exact duplicates/overlaps are listed in next_batch_audit.json", "Retain attribution and reuse restrictions", "Check overlap with PlantWild v1 and PlantSeg"]},
+    {"id":"gymnsa", "priority":2, "source":"https://data.mendeley.com/datasets/44kjgc4gkc/1", "task":"RGB UAV pear-rust detection", "license":"CC BY 4.0; verified in version 1 metadata on 2026-10-05", "status":"acquired_and_audited_review_required", "image_files":746, "positive_images":584, "background_images":162, "cautions":["Published SHA-256 and ZIP integrity verified", "Six boundary-coordinate issues in five images need review", "One disease/crop target", "Group by source image/tree/flight where available", "Requires sufficient image resolution"]},
+    {"id":"tomato-village", "priority":2, "source":"https://github.com/mamta-joshi-gehlot/Tomato-Village", "task":"tomato classification/multilabel/detection depending release", "license":"review release terms", "status":"planned", "cautions":["Variants overlap", "Do not merge diseases, nutrient problems and pests into the same label"]},
+    {"id":"plantseg", "priority":3, "source":"https://github.com/tqwei05/PlantSeg", "task":"symptom segmentation", "license":"review chosen release; published dataset states CC BY-NC 4.0", "status":"planned", "cautions":["Check version-specific file counts", "Overlap with PlantWild", "Masks measure visible symptom coverage"]},
+    {"id":"plantvillage", "priority":3, "source":"https://github.com/spMohanty/PlantVillage-Dataset", "task":"controlled-image classification baseline", "license":"review chosen release terms", "status":"active_training_raw_directory_missing", "cautions":["Check team copies before another download", "Controlled backgrounds differ from deployment", "Color/grayscale/segmented variants are related observations"]},
+    {"id":"jordan-field", "priority":1, "source":"team farm visits and actual deployment cameras", "task":"local validation, later training from reviewed development subset", "license":"team-owned or permission recorded", "status":"pending_no_farm_access_or_equipment_confirmed_2026-10-03", "cautions":["Retain plant/farm/session grouping", "Expert review before specific disease labels", "Keep a separately reserved farm or collection session for final evaluation"]}
+  ]
+}

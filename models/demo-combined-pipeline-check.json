@@ -1,0 +1,42 @@
+{
+  "cloud_writes": false,
+  "kind": "real models; repeated recorded photos at injected confirmation times; local receiver only",
+  "checks": [
+    {
+      "input": "fire photograph",
+      "events_to_local_receiver": [
+        {
+          "type": "fire",
+          "label": "fire",
+          "confidence": 0.9875257015228271
+        }
+      ],
+      "plant_top": {
+        "label": "Tomato___Early_blight",
+        "confidence": 0.7950385808944702
+      }
+    },
+    {
+      "input": "tomato late-blight photograph",
+      "events_to_local_receiver": [
+        {
+          "type": "disease",
+          "label": "Tomato___Late_blight",
+          "confidence": 0.9990774393081665
+        }
+      ],
+      "plant_top": {
+        "label": "Tomato___Late_blight",
+        "confidence": 0.9990774393081665
+      }
+    },
+    {
+      "input": "uncertain tomato photograph",
+      "events_to_local_receiver": [],
+      "plant_top": {
+        "label": "Tomato___Late_blight",
+        "confidence": 0.5071319341659546
+      }
+    }
+  ]
+}

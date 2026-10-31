@@ -1,0 +1,36 @@
+[
+  {
+    "sample": "plantwild-v2_316f03f28dfe5b92134f.jpg",
+    "status": "prediction",
+    "label": "Tomato___Late_blight",
+    "confidence": 0.9835875630378723,
+    "model": {
+      "id": "plant-closeup-demo-tomato-3",
+      "task": "classify",
+      "classes": 3,
+      "sha256": "67055b61ae7ac89c5e3dc516592a773bbee34250721684a72afe7faab4c9c836",
+      "experimental": true,
+      "supported_crops": [
+        "tomato"
+      ]
+    },
+    "message": "Close-up tomato leaves only. This legacy model is not validated for general field imagery."
+  },
+  {
+    "sample": "plantwild-v2_0cb9fe6feaef81f3b6bf.jpg",
+    "status": "inconclusive",
+    "label": null,
+    "confidence": 0.5071319341659546,
+    "model": {
+      "id": "plant-closeup-demo-tomato-3",
+      "task": "classify",
+      "classes": 3,
+      "sha256": "67055b61ae7ac89c5e3dc516592a773bbee34250721684a72afe7faab4c9c836",
+      "experimental": true,
+      "supported_crops": [
+        "tomato"
+      ]
+    },
+    "message": "Close-up tomato leaves only. This legacy model is not validated for general field imagery."
+  }
+]

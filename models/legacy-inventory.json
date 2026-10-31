@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "fire_best.onnx",
+    "bytes": 12448547,
+    "sha256": "493ba455740cfe53c5b5199bcfd9168edce2a2a4fbd2b8199b44a8b189c6c52e",
+    "status": "legacy-unpromoted",
+    "original_local_directory": "D:\\graduation-project\\models"
+  },
+  {
+    "filename": "fire_best.pt",
+    "bytes": 6279843,
+    "sha256": "9377741b43780125a628ee65533efab8aa5aef56298b59da2b57527b8d95ee29",
+    "status": "legacy-unpromoted",
+    "original_local_directory": "D:\\graduation-project\\models"
+  },
+  {
+    "filename": "plant_disease_best.onnx",
+    "bytes": 63208848,
+    "sha256": "2f526d0e0c17f2fe194d2eed29376195e99ec3887c01312d0103a29a397fc2f9",
+    "status": "legacy-unpromoted",
+    "original_local_directory": "D:\\graduation-project\\models"
+  },
+  {
+    "filename": "plant_disease_best.pt",
+    "bytes": 31719840,
+    "sha256": "4df71334fe0c6e2aa2315dda1979acc6f90b40646e45b490e013298562980ea1",
+    "status": "legacy-unpromoted",
+    "original_local_directory": "D:\\graduation-project\\models"
+  },
+  {
+    "filename": "plant_disease_detect.pt",
+    "bytes": 6261411,
+    "sha256": "e16d9ef998942d7b89c3457368086a50430d46274c99f1e2eb006707e252eee4",
+    "status": "legacy-unpromoted",
+    "original_local_directory": "D:\\graduation-project\\models"
+  }
+]

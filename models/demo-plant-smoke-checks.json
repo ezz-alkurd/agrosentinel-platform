@@ -1,0 +1,398 @@
+[
+  {
+    "model": "models\\plant_disease_best.pt",
+    "task": "classify",
+    "samples": [
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_0cb9fe6feaef81f3b6bf.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Tomato___Septoria_leaf_spot",
+        "confidence": 0.912,
+        "seconds": 0.5
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_2cafd9faaee5bfea8703.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Pepper__bell___Bacterial_spot",
+        "confidence": 0.4445,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_33947e74097348d7ecdf.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.81,
+        "seconds": 0.109
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_0f4c39aea021090e91f5.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.8495,
+        "seconds": 0.125
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_1747792ca1c831bee84b.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Potato___Late_blight",
+        "confidence": 0.9999,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_316f03f28dfe5b92134f.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Pepper__bell___healthy",
+        "confidence": 0.546,
+        "seconds": 0.078
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_120928571b30eb786c50.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.9581,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_2a78fcb311892405bf7f.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Pepper__bell___healthy",
+        "confidence": 0.9802,
+        "seconds": 0.078
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_3ea3159985e19c73fd0e.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.9837,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_167eede1731e529a196d.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 1.0,
+        "seconds": 0.078
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_1848201bc460cc4933ef.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.9999,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_1fe06ed81e53a01e4111.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.7172,
+        "seconds": 0.109
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_27dd375a72b9c6ef1394.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Tomato___Bacterial_spot",
+        "confidence": 0.5501,
+        "seconds": 0.078
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_4908b510680645b71619.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Tomato___Bacterial_spot",
+        "confidence": 0.637,
+        "seconds": 0.063
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_4b971841511cf570aa9a.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Pepper__bell___Bacterial_spot",
+        "confidence": 0.9928,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_18b07cfbe49be5f64506.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.632,
+        "seconds": 0.093
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_22977996156b5bacddb4.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato___Bacterial_spot",
+        "confidence": 0.4019,
+        "seconds": 0.078
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_38be7795ebdfbb479b4f.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.9993,
+        "seconds": 0.282
+      }
+    ]
+  },
+  {
+    "model": "_archive\\old-models\\plant_disease_detector_OLD.pt",
+    "task": "classify",
+    "samples": [
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_0cb9fe6feaef81f3b6bf.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Tomato_Septoria_leaf_spot",
+        "confidence": 0.9648,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_2cafd9faaee5bfea8703.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Tomato_Early_blight",
+        "confidence": 0.6405,
+        "seconds": 0.015
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_33947e74097348d7ecdf.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Tomato_Early_blight",
+        "confidence": 0.7395,
+        "seconds": 0.063
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_0f4c39aea021090e91f5.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Tomato_Early_blight",
+        "confidence": 0.9774,
+        "seconds": 0.047
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_1747792ca1c831bee84b.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Potato___Late_blight",
+        "confidence": 0.985,
+        "seconds": 0.047
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_316f03f28dfe5b92134f.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Tomato__Target_Spot",
+        "confidence": 0.8751,
+        "seconds": 0.031
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_120928571b30eb786c50.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Tomato_Early_blight",
+        "confidence": 0.6385,
+        "seconds": 0.015
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_2a78fcb311892405bf7f.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Pepper__bell___healthy",
+        "confidence": 0.429,
+        "seconds": 0.032
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_3ea3159985e19c73fd0e.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Potato___Early_blight",
+        "confidence": 0.4321,
+        "seconds": 0.031
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_167eede1731e529a196d.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato_Late_blight",
+        "confidence": 0.8986,
+        "seconds": 0.016
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_1848201bc460cc4933ef.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato_Late_blight",
+        "confidence": 0.9978,
+        "seconds": 0.031
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_1fe06ed81e53a01e4111.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato_Early_blight",
+        "confidence": 0.9635,
+        "seconds": 0.047
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_27dd375a72b9c6ef1394.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Tomato_Septoria_leaf_spot",
+        "confidence": 0.8657,
+        "seconds": 0.047
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_4908b510680645b71619.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Tomato_Bacterial_spot",
+        "confidence": 0.9504,
+        "seconds": 0.015
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_4b971841511cf570aa9a.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Pepper__bell___Bacterial_spot",
+        "confidence": 0.9987,
+        "seconds": 0.016
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_18b07cfbe49be5f64506.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato__Target_Spot",
+        "confidence": 0.6102,
+        "seconds": 0.031
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_22977996156b5bacddb4.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato_Leaf_Mold",
+        "confidence": 0.5903,
+        "seconds": 0.0
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_38be7795ebdfbb479b4f.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato_Late_blight",
+        "confidence": 0.9991,
+        "seconds": 0.25
+      }
+    ]
+  },
+  {
+    "model": "models\\plant_disease_detect.pt",
+    "task": "detect",
+    "samples": [
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_0cb9fe6feaef81f3b6bf.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Corn___Northern_Leaf_Blight",
+        "confidence": 0.3872,
+        "seconds": 0.218
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_2cafd9faaee5bfea8703.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Strawberry___Leaf_scorch",
+        "confidence": 0.3207,
+        "seconds": 0.11
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_early_blight\\plantwild-v2_33947e74097348d7ecdf.jpg",
+        "expected": "Tomato___Early_blight",
+        "prediction": "Grape___Black_rot",
+        "confidence": 0.9544,
+        "seconds": 0.14
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_0f4c39aea021090e91f5.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Strawberry___Leaf_scorch",
+        "confidence": 0.9376,
+        "seconds": 0.141
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_1747792ca1c831bee84b.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Strawberry___Leaf_scorch",
+        "confidence": 0.4035,
+        "seconds": 0.109
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_late_blight\\plantwild-v2_316f03f28dfe5b92134f.jpg",
+        "expected": "Tomato___Late_blight",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.8536,
+        "seconds": 0.11
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_120928571b30eb786c50.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Tomato___Early_blight",
+        "confidence": 0.9796,
+        "seconds": 0.109
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_2a78fcb311892405bf7f.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Grape___Black_rot",
+        "confidence": 0.939,
+        "seconds": 0.125
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_early_blight\\plantwild-v2_3ea3159985e19c73fd0e.jpg",
+        "expected": "Potato___Early_blight",
+        "prediction": "Strawberry___Leaf_scorch",
+        "confidence": 0.9299,
+        "seconds": 0.141
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_167eede1731e529a196d.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.7296,
+        "seconds": 0.109
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_1848201bc460cc4933ef.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.9235,
+        "seconds": 0.141
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\potato_late_blight\\plantwild-v2_1fe06ed81e53a01e4111.jpg",
+        "expected": "Potato___Late_blight",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.7755,
+        "seconds": 0.125
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_27dd375a72b9c6ef1394.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Tomato___Septoria_leaf_spot",
+        "confidence": 0.3623,
+        "seconds": 0.093
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_4908b510680645b71619.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+        "confidence": 0.7184,
+        "seconds": 0.11
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\bell_pepper_bacterial_spot\\plantwild-v2_4b971841511cf570aa9a.jpg",
+        "expected": "Pepper__bell___Bacterial_spot",
+        "prediction": "Strawberry___Leaf_scorch",
+        "confidence": 0.8908,
+        "seconds": 0.094
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_18b07cfbe49be5f64506.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Strawberry___Leaf_scorch",
+        "confidence": 0.9554,
+        "seconds": 0.093
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_22977996156b5bacddb4.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato___Septoria_leaf_spot",
+        "confidence": 0.8697,
+        "seconds": 0.078
+      },
+      {
+        "image": "data\\plant\\prepared\\v1\\ground_classification\\test\\tomato_leaf_mold\\plantwild-v2_38be7795ebdfbb479b4f.jpg",
+        "expected": "Tomato___Leaf_Mold",
+        "prediction": "Tomato___Late_blight",
+        "confidence": 0.9584,
+        "seconds": 0.235
+      }
+    ]
+  }
+]

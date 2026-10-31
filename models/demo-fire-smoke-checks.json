@@ -1,0 +1,152 @@
+[
+  {
+    "model": "models\\fire_best.pt",
+    "image": "wildfire",
+    "seconds": 16.485,
+    "detections": [
+      {
+        "label": "smoke",
+        "confidence": 0.182
+      }
+    ]
+  },
+  {
+    "model": "models\\fire_best.pt",
+    "image": "field-negative",
+    "seconds": 0.219,
+    "detections": [
+      {
+        "label": "smoke",
+        "confidence": 0.3252
+      }
+    ]
+  },
+  {
+    "model": "models\\fire_best.pt",
+    "image": "leaf-negative",
+    "seconds": 0.109,
+    "detections": []
+  },
+  {
+    "model": "models\\fire_best.pt",
+    "image": "sign-negative",
+    "seconds": 0.125,
+    "detections": []
+  },
+  {
+    "model": "_archive\\ezzeldeen\\G-Project\\grad project fire base and flutter\\grad prop\\yolo\\best.pt",
+    "image": "wildfire",
+    "seconds": 0.219,
+    "detections": [
+      {
+        "label": "Fire",
+        "confidence": 0.2942
+      },
+      {
+        "label": "smoke",
+        "confidence": 0.2198
+      },
+      {
+        "label": "Fire",
+        "confidence": 0.1778
+      }
+    ]
+  },
+  {
+    "model": "_archive\\ezzeldeen\\G-Project\\grad project fire base and flutter\\grad prop\\yolo\\best.pt",
+    "image": "field-negative",
+    "seconds": 0.156,
+    "detections": []
+  },
+  {
+    "model": "_archive\\ezzeldeen\\G-Project\\grad project fire base and flutter\\grad prop\\yolo\\best.pt",
+    "image": "leaf-negative",
+    "seconds": 0.094,
+    "detections": [
+      {
+        "label": "smoke",
+        "confidence": 0.6306
+      },
+      {
+        "label": "smoke",
+        "confidence": 0.4914
+      },
+      {
+        "label": "smoke",
+        "confidence": 0.4786
+      }
+    ]
+  },
+  {
+    "model": "_archive\\ezzeldeen\\G-Project\\grad project fire base and flutter\\grad prop\\yolo\\best.pt",
+    "image": "sign-negative",
+    "seconds": 0.125,
+    "detections": []
+  },
+  {
+    "model": "_archive\\old-models\\best.pt",
+    "image": "wildfire",
+    "seconds": 0.203,
+    "detections": [
+      {
+        "label": "smoke",
+        "confidence": 0.2217
+      },
+      {
+        "label": "other",
+        "confidence": 0.1885
+      },
+      {
+        "label": "fire",
+        "confidence": 0.1722
+      }
+    ]
+  },
+  {
+    "model": "_archive\\old-models\\best.pt",
+    "image": "field-negative",
+    "seconds": 0.157,
+    "detections": []
+  },
+  {
+    "model": "_archive\\old-models\\best.pt",
+    "image": "leaf-negative",
+    "seconds": 0.109,
+    "detections": []
+  },
+  {
+    "model": "_archive\\old-models\\best.pt",
+    "image": "sign-negative",
+    "seconds": 0.141,
+    "detections": []
+  },
+  {
+    "model": "_archive\\reorganization-2026-10-17\\historical-contributions\\sara\\models\\best.pt",
+    "image": "wildfire",
+    "seconds": 0.406,
+    "detections": [
+      {
+        "label": "fire",
+        "confidence": 0.9875
+      }
+    ]
+  },
+  {
+    "model": "_archive\\reorganization-2026-10-17\\historical-contributions\\sara\\models\\best.pt",
+    "image": "field-negative",
+    "seconds": 0.25,
+    "detections": []
+  },
+  {
+    "model": "_archive\\reorganization-2026-10-17\\historical-contributions\\sara\\models\\best.pt",
+    "image": "leaf-negative",
+    "seconds": 0.156,
+    "detections": []
+  },
+  {
+    "model": "_archive\\reorganization-2026-10-17\\historical-contributions\\sara\\models\\best.pt",
+    "image": "sign-negative",
+    "seconds": 0.188,
+    "detections": []
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "policy": "Preserve source labels; only explicit compatible names link experiments. Links are not expert disease confirmation. No unspecified leaf label becomes healthy.",
+  "plantdoc_classification_links": {
+    "Apple rust leaf": "apple rust",
+    "Apple Scab Leaf": "apple scab",
+    "Corn Gray leaf spot": "corn gray leaf spot",
+    "Corn rust leaf": "corn rust",
+    "grape leaf black rot": "grape black rot",
+    "Potato leaf early blight": "potato early blight",
+    "Potato leaf late blight": "potato late blight",
+    "Squash Powdery mildew leaf": "squash powdery mildew",
+    "Tomato leaf bacterial spot": "tomato bacterial leaf spot",
+    "Tomato Septoria leaf spot": "tomato septoria leaf spot",
+    "Tomato Early blight leaf": "tomato early blight",
+    "Tomato leaf late blight": "tomato late blight",
+    "Tomato mold leaf": "tomato leaf mold",
+    "Tomato leaf mosaic virus": "tomato mosaic virus"
+  },
+  "plantdoc_requires_condition_review": [
+    "Bell_pepper leaf spot",
+    "Corn leaf blight",
+    "Tomato leaf yellow virus"
+  ],
+  "plantdoc_condition_unspecified": [
+    "grape leaf", "Peach leaf", "Soyabean leaf", "Bell_pepper leaf", "Tomato leaf",
+    "Apple leaf", "Blueberry leaf", "Raspberry leaf", "Cherry leaf", "Strawberry leaf", "Potato leaf"
+  ],
+  "plantdoc_pest": ["Tomato two spotted spider mites leaf"],
+  "plantwild_noninfectious_condition": ["bell pepper blossom end rot"],
+  "crop_prefixes": [
+    "bell pepper", "apple", "banana", "basil", "bean", "blueberry", "broccoli", "cabbage",
+    "carrot", "cauliflower", "celery", "cherry", "citrus", "coffee", "corn", "cucumber",
+    "eggplant", "garlic", "ginger", "grapevine", "grape", "lettuce", "maple", "peach",
+    "plum", "potato", "raspberry", "rice", "soybean", "squash", "strawberry", "tobacco",
+    "tomato", "wheat", "zucchini"
+  ]
+}

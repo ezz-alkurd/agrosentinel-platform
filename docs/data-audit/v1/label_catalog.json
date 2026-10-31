@@ -1,0 +1,1522 @@
+{
+  "policy": {
+    "version": 1,
+    "policy": "Preserve source labels; only explicit compatible names link experiments. Links are not expert disease confirmation. No unspecified leaf label becomes healthy.",
+    "plantdoc_classification_links": {
+      "Apple rust leaf": "apple rust",
+      "Apple Scab Leaf": "apple scab",
+      "Corn Gray leaf spot": "corn gray leaf spot",
+      "Corn rust leaf": "corn rust",
+      "grape leaf black rot": "grape black rot",
+      "Potato leaf early blight": "potato early blight",
+      "Potato leaf late blight": "potato late blight",
+      "Squash Powdery mildew leaf": "squash powdery mildew",
+      "Tomato leaf bacterial spot": "tomato bacterial leaf spot",
+      "Tomato Septoria leaf spot": "tomato septoria leaf spot",
+      "Tomato Early blight leaf": "tomato early blight",
+      "Tomato leaf late blight": "tomato late blight",
+      "Tomato mold leaf": "tomato leaf mold",
+      "Tomato leaf mosaic virus": "tomato mosaic virus"
+    },
+    "plantdoc_requires_condition_review": [
+      "Bell_pepper leaf spot",
+      "Corn leaf blight",
+      "Tomato leaf yellow virus"
+    ],
+    "plantdoc_condition_unspecified": [
+      "grape leaf",
+      "Peach leaf",
+      "Soyabean leaf",
+      "Bell_pepper leaf",
+      "Tomato leaf",
+      "Apple leaf",
+      "Blueberry leaf",
+      "Raspberry leaf",
+      "Cherry leaf",
+      "Strawberry leaf",
+      "Potato leaf"
+    ],
+    "plantdoc_pest": [
+      "Tomato two spotted spider mites leaf"
+    ],
+    "plantwild_noninfectious_condition": [
+      "bell pepper blossom end rot"
+    ],
+    "crop_prefixes": [
+      "bell pepper",
+      "apple",
+      "banana",
+      "basil",
+      "bean",
+      "blueberry",
+      "broccoli",
+      "cabbage",
+      "carrot",
+      "cauliflower",
+      "celery",
+      "cherry",
+      "citrus",
+      "coffee",
+      "corn",
+      "cucumber",
+      "eggplant",
+      "garlic",
+      "ginger",
+      "grapevine",
+      "grape",
+      "lettuce",
+      "maple",
+      "peach",
+      "plum",
+      "potato",
+      "raspberry",
+      "rice",
+      "soybean",
+      "squash",
+      "strawberry",
+      "tobacco",
+      "tomato",
+      "wheat",
+      "zucchini"
+    ]
+  },
+  "labels": [
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "apple black rot",
+      "export_label": "apple_black_rot",
+      "crop": "apple",
+      "source_condition": "black rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "apple mosaic virus",
+      "export_label": "apple_mosaic_virus",
+      "crop": "apple",
+      "source_condition": "mosaic virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "apple rust",
+      "export_label": "apple_rust",
+      "crop": "apple",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "apple scab",
+      "export_label": "apple_scab",
+      "crop": "apple",
+      "source_condition": "scab",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "banana anthracnose",
+      "export_label": "banana_anthracnose",
+      "crop": "banana",
+      "source_condition": "anthracnose",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "banana black leaf streak",
+      "export_label": "banana_black_leaf_streak",
+      "crop": "banana",
+      "source_condition": "black leaf streak",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "banana bunchy top",
+      "export_label": "banana_bunchy_top",
+      "crop": "banana",
+      "source_condition": "bunchy top",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "banana cigar end rot",
+      "export_label": "banana_cigar_end_rot",
+      "crop": "banana",
+      "source_condition": "cigar end rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "banana cordana leaf spot",
+      "export_label": "banana_cordana_leaf_spot",
+      "crop": "banana",
+      "source_condition": "cordana leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "banana panama disease",
+      "export_label": "banana_panama_disease",
+      "crop": "banana",
+      "source_condition": "panama disease",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "basil downy mildew",
+      "export_label": "basil_downy_mildew",
+      "crop": "basil",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bean halo blight",
+      "export_label": "bean_halo_blight",
+      "crop": "bean",
+      "source_condition": "halo blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bean mosaic virus",
+      "export_label": "bean_mosaic_virus",
+      "crop": "bean",
+      "source_condition": "mosaic virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bean rust",
+      "export_label": "bean_rust",
+      "crop": "bean",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bell pepper bacterial spot",
+      "export_label": "bell_pepper_bacterial_spot",
+      "crop": "bell pepper",
+      "source_condition": "bacterial spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bell pepper blossom end rot",
+      "export_label": "bell_pepper_blossom_end_rot",
+      "crop": "bell pepper",
+      "source_condition": "blossom end rot",
+      "condition_kind": "noninfectious_disorder",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bell pepper frogeye leaf spot",
+      "export_label": "bell_pepper_frogeye_leaf_spot",
+      "crop": "bell pepper",
+      "source_condition": "frogeye leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "bell pepper powdery mildew",
+      "export_label": "bell_pepper_powdery_mildew",
+      "crop": "bell pepper",
+      "source_condition": "powdery mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "blueberry anthracnose",
+      "export_label": "blueberry_anthracnose",
+      "crop": "blueberry",
+      "source_condition": "anthracnose",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "blueberry botrytis blight",
+      "export_label": "blueberry_botrytis_blight",
+      "crop": "blueberry",
+      "source_condition": "botrytis blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "blueberry mummy berry",
+      "export_label": "blueberry_mummy_berry",
+      "crop": "blueberry",
+      "source_condition": "mummy berry",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "blueberry rust",
+      "export_label": "blueberry_rust",
+      "crop": "blueberry",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "blueberry scorch",
+      "export_label": "blueberry_scorch",
+      "crop": "blueberry",
+      "source_condition": "scorch",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "broccoli alternaria leaf spot",
+      "export_label": "broccoli_alternaria_leaf_spot",
+      "crop": "broccoli",
+      "source_condition": "alternaria leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "broccoli downy mildew",
+      "export_label": "broccoli_downy_mildew",
+      "crop": "broccoli",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "broccoli ring spot",
+      "export_label": "broccoli_ring_spot",
+      "crop": "broccoli",
+      "source_condition": "ring spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cabbage alternaria leaf spot",
+      "export_label": "cabbage_alternaria_leaf_spot",
+      "crop": "cabbage",
+      "source_condition": "alternaria leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cabbage black rot",
+      "export_label": "cabbage_black_rot",
+      "crop": "cabbage",
+      "source_condition": "black rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cabbage downy mildew",
+      "export_label": "cabbage_downy_mildew",
+      "crop": "cabbage",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "carrot alternaria leaf blight",
+      "export_label": "carrot_alternaria_leaf_blight",
+      "crop": "carrot",
+      "source_condition": "alternaria leaf blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "carrot cavity spot",
+      "export_label": "carrot_cavity_spot",
+      "crop": "carrot",
+      "source_condition": "cavity spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "carrot cercospora leaf blight",
+      "export_label": "carrot_cercospora_leaf_blight",
+      "crop": "carrot",
+      "source_condition": "cercospora leaf blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cauliflower alternaria leaf spot",
+      "export_label": "cauliflower_alternaria_leaf_spot",
+      "crop": "cauliflower",
+      "source_condition": "alternaria leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cauliflower bacterial soft rot",
+      "export_label": "cauliflower_bacterial_soft_rot",
+      "crop": "cauliflower",
+      "source_condition": "bacterial soft rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "celery anthracnose",
+      "export_label": "celery_anthracnose",
+      "crop": "celery",
+      "source_condition": "anthracnose",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "celery early blight",
+      "export_label": "celery_early_blight",
+      "crop": "celery",
+      "source_condition": "early blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cherry leaf spot",
+      "export_label": "cherry_leaf_spot",
+      "crop": "cherry",
+      "source_condition": "leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cherry powdery mildew",
+      "export_label": "cherry_powdery_mildew",
+      "crop": "cherry",
+      "source_condition": "powdery mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "citrus canker",
+      "export_label": "citrus_canker",
+      "crop": "citrus",
+      "source_condition": "canker",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "citrus greening disease",
+      "export_label": "citrus_greening_disease",
+      "crop": "citrus",
+      "source_condition": "greening disease",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "coffee berry blotch",
+      "export_label": "coffee_berry_blotch",
+      "crop": "coffee",
+      "source_condition": "berry blotch",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "coffee black rot",
+      "export_label": "coffee_black_rot",
+      "crop": "coffee",
+      "source_condition": "black rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "coffee brown eye spot",
+      "export_label": "coffee_brown_eye_spot",
+      "crop": "coffee",
+      "source_condition": "brown eye spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "coffee leaf rust",
+      "export_label": "coffee_leaf_rust",
+      "crop": "coffee",
+      "source_condition": "leaf rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "corn gray leaf spot",
+      "export_label": "corn_gray_leaf_spot",
+      "crop": "corn",
+      "source_condition": "gray leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "corn northern leaf blight",
+      "export_label": "corn_northern_leaf_blight",
+      "crop": "corn",
+      "source_condition": "northern leaf blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "corn rust",
+      "export_label": "corn_rust",
+      "crop": "corn",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "corn smut",
+      "export_label": "corn_smut",
+      "crop": "corn",
+      "source_condition": "smut",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cucumber angular leaf spot",
+      "export_label": "cucumber_angular_leaf_spot",
+      "crop": "cucumber",
+      "source_condition": "angular leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cucumber bacterial wilt",
+      "export_label": "cucumber_bacterial_wilt",
+      "crop": "cucumber",
+      "source_condition": "bacterial wilt",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "cucumber powdery mildew",
+      "export_label": "cucumber_powdery_mildew",
+      "crop": "cucumber",
+      "source_condition": "powdery mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "eggplant cercospora leaf spot",
+      "export_label": "eggplant_cercospora_leaf_spot",
+      "crop": "eggplant",
+      "source_condition": "cercospora leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "eggplant phomopsis fruit rot",
+      "export_label": "eggplant_phomopsis_fruit_rot",
+      "crop": "eggplant",
+      "source_condition": "phomopsis fruit rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "eggplant phytophthora blight",
+      "export_label": "eggplant_phytophthora_blight",
+      "crop": "eggplant",
+      "source_condition": "phytophthora blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "garlic leaf blight",
+      "export_label": "garlic_leaf_blight",
+      "crop": "garlic",
+      "source_condition": "leaf blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "garlic rust",
+      "export_label": "garlic_rust",
+      "crop": "garlic",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "ginger leaf spot",
+      "export_label": "ginger_leaf_spot",
+      "crop": "ginger",
+      "source_condition": "leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "ginger sheath blight",
+      "export_label": "ginger_sheath_blight",
+      "crop": "ginger",
+      "source_condition": "sheath blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "grape black rot",
+      "export_label": "grape_black_rot",
+      "crop": "grape",
+      "source_condition": "black rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "grape downy mildew",
+      "export_label": "grape_downy_mildew",
+      "crop": "grape",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "grape leaf spot",
+      "export_label": "grape_leaf_spot",
+      "crop": "grape",
+      "source_condition": "leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "grapevine leafroll disease",
+      "export_label": "grapevine_leafroll_disease",
+      "crop": "grapevine",
+      "source_condition": "leafroll disease",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "lettuce downy mildew",
+      "export_label": "lettuce_downy_mildew",
+      "crop": "lettuce",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "lettuce mosaic virus",
+      "export_label": "lettuce_mosaic_virus",
+      "crop": "lettuce",
+      "source_condition": "mosaic virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "maple tar spot",
+      "export_label": "maple_tar_spot",
+      "crop": "maple",
+      "source_condition": "tar spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "peach anthracnose",
+      "export_label": "peach_anthracnose",
+      "crop": "peach",
+      "source_condition": "anthracnose",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "peach brown rot",
+      "export_label": "peach_brown_rot",
+      "crop": "peach",
+      "source_condition": "brown rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "peach leaf curl",
+      "export_label": "peach_leaf_curl",
+      "crop": "peach",
+      "source_condition": "leaf curl",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "peach rust",
+      "export_label": "peach_rust",
+      "crop": "peach",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "peach scab",
+      "export_label": "peach_scab",
+      "crop": "peach",
+      "source_condition": "scab",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "plum bacterial spot",
+      "export_label": "plum_bacterial_spot",
+      "crop": "plum",
+      "source_condition": "bacterial spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "plum brown rot",
+      "export_label": "plum_brown_rot",
+      "crop": "plum",
+      "source_condition": "brown rot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "plum pocket disease",
+      "export_label": "plum_pocket_disease",
+      "crop": "plum",
+      "source_condition": "pocket disease",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "plum pox virus",
+      "export_label": "plum_pox_virus",
+      "crop": "plum",
+      "source_condition": "pox virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "plum rust",
+      "export_label": "plum_rust",
+      "crop": "plum",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "potato early blight",
+      "export_label": "potato_early_blight",
+      "crop": "potato",
+      "source_condition": "early blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "potato late blight",
+      "export_label": "potato_late_blight",
+      "crop": "potato",
+      "source_condition": "late blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "raspberry fire blight",
+      "export_label": "raspberry_fire_blight",
+      "crop": "raspberry",
+      "source_condition": "fire blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "raspberry gray mold",
+      "export_label": "raspberry_gray_mold",
+      "crop": "raspberry",
+      "source_condition": "gray mold",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "raspberry leaf spot",
+      "export_label": "raspberry_leaf_spot",
+      "crop": "raspberry",
+      "source_condition": "leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "raspberry yellow rust",
+      "export_label": "raspberry_yellow_rust",
+      "crop": "raspberry",
+      "source_condition": "yellow rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "rice blast",
+      "export_label": "rice_blast",
+      "crop": "rice",
+      "source_condition": "blast",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "rice sheath blight",
+      "export_label": "rice_sheath_blight",
+      "crop": "rice",
+      "source_condition": "sheath blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "soybean bacterial blight",
+      "export_label": "soybean_bacterial_blight",
+      "crop": "soybean",
+      "source_condition": "bacterial blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "soybean brown spot",
+      "export_label": "soybean_brown_spot",
+      "crop": "soybean",
+      "source_condition": "brown spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "soybean downy mildew",
+      "export_label": "soybean_downy_mildew",
+      "crop": "soybean",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "soybean frog eye leaf spot",
+      "export_label": "soybean_frog_eye_leaf_spot",
+      "crop": "soybean",
+      "source_condition": "frog eye leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "soybean mosaic",
+      "export_label": "soybean_mosaic",
+      "crop": "soybean",
+      "source_condition": "mosaic",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "soybean rust",
+      "export_label": "soybean_rust",
+      "crop": "soybean",
+      "source_condition": "rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "squash powdery mildew",
+      "export_label": "squash_powdery_mildew",
+      "crop": "squash",
+      "source_condition": "powdery mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "strawberry anthracnose",
+      "export_label": "strawberry_anthracnose",
+      "crop": "strawberry",
+      "source_condition": "anthracnose",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "strawberry leaf scorch",
+      "export_label": "strawberry_leaf_scorch",
+      "crop": "strawberry",
+      "source_condition": "leaf scorch",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tobacco blue mold",
+      "export_label": "tobacco_blue_mold",
+      "crop": "tobacco",
+      "source_condition": "blue mold",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tobacco brown spot",
+      "export_label": "tobacco_brown_spot",
+      "crop": "tobacco",
+      "source_condition": "brown spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tobacco frogeye leaf spot",
+      "export_label": "tobacco_frogeye_leaf_spot",
+      "crop": "tobacco",
+      "source_condition": "frogeye leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tobacco mosaic virus",
+      "export_label": "tobacco_mosaic_virus",
+      "crop": "tobacco",
+      "source_condition": "mosaic virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato bacterial leaf spot",
+      "export_label": "tomato_bacterial_leaf_spot",
+      "crop": "tomato",
+      "source_condition": "bacterial leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato early blight",
+      "export_label": "tomato_early_blight",
+      "crop": "tomato",
+      "source_condition": "early blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato late blight",
+      "export_label": "tomato_late_blight",
+      "crop": "tomato",
+      "source_condition": "late blight",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato leaf mold",
+      "export_label": "tomato_leaf_mold",
+      "crop": "tomato",
+      "source_condition": "leaf mold",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato mosaic virus",
+      "export_label": "tomato_mosaic_virus",
+      "crop": "tomato",
+      "source_condition": "mosaic virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato septoria leaf spot",
+      "export_label": "tomato_septoria_leaf_spot",
+      "crop": "tomato",
+      "source_condition": "septoria leaf spot",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "tomato yellow leaf curl virus",
+      "export_label": "tomato_yellow_leaf_curl_virus",
+      "crop": "tomato",
+      "source_condition": "yellow leaf curl virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat bacterial leaf streak (black chaff)",
+      "export_label": "wheat_bacterial_leaf_streak_black_chaff",
+      "crop": "wheat",
+      "source_condition": "bacterial leaf streak (black chaff)",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat head scab",
+      "export_label": "wheat_head_scab",
+      "crop": "wheat",
+      "source_condition": "head scab",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat leaf rust",
+      "export_label": "wheat_leaf_rust",
+      "crop": "wheat",
+      "source_condition": "leaf rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat loose smut",
+      "export_label": "wheat_loose_smut",
+      "crop": "wheat",
+      "source_condition": "loose smut",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat powdery mildew",
+      "export_label": "wheat_powdery_mildew",
+      "crop": "wheat",
+      "source_condition": "powdery mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat septoria blotch",
+      "export_label": "wheat_septoria_blotch",
+      "crop": "wheat",
+      "source_condition": "septoria blotch",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat stem rust",
+      "export_label": "wheat_stem_rust",
+      "crop": "wheat",
+      "source_condition": "stem rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "wheat stripe rust",
+      "export_label": "wheat_stripe_rust",
+      "crop": "wheat",
+      "source_condition": "stripe rust",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "zucchini bacterial wilt",
+      "export_label": "zucchini_bacterial_wilt",
+      "crop": "zucchini",
+      "source_condition": "bacterial wilt",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "zucchini downy mildew",
+      "export_label": "zucchini_downy_mildew",
+      "crop": "zucchini",
+      "source_condition": "downy mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "zucchini powdery mildew",
+      "export_label": "zucchini_powdery_mildew",
+      "crop": "zucchini",
+      "source_condition": "powdery mildew",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantwild-v2",
+      "source_label": "zucchini yellow mosaic virus",
+      "export_label": "zucchini_yellow_mosaic_virus",
+      "crop": "zucchini",
+      "source_condition": "yellow mosaic virus",
+      "condition_kind": "source_disease_category",
+      "healthy": false,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Apple Scab Leaf",
+      "export_label": "apple_scab_leaf",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "apple_scab",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Apple leaf",
+      "export_label": "apple_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Apple rust leaf",
+      "export_label": "apple_rust_leaf",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "apple_rust",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Bell_pepper leaf",
+      "export_label": "bell_pepper_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Bell_pepper leaf spot",
+      "export_label": "bell_pepper_leaf_spot",
+      "condition_kind": "ambiguous_condition",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Blueberry leaf",
+      "export_label": "blueberry_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Cherry leaf",
+      "export_label": "cherry_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Corn Gray leaf spot",
+      "export_label": "corn_gray_leaf_spot",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "corn_gray_leaf_spot",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Corn leaf blight",
+      "export_label": "corn_leaf_blight",
+      "condition_kind": "ambiguous_condition",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Corn rust leaf",
+      "export_label": "corn_rust_leaf",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "corn_rust",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Peach leaf",
+      "export_label": "peach_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Potato leaf",
+      "export_label": "potato_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Potato leaf early blight",
+      "export_label": "potato_leaf_early_blight",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "potato_early_blight",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Potato leaf late blight",
+      "export_label": "potato_leaf_late_blight",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "potato_late_blight",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Raspberry leaf",
+      "export_label": "raspberry_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Soyabean leaf",
+      "export_label": "soyabean_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Squash Powdery mildew leaf",
+      "export_label": "squash_powdery_mildew_leaf",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "squash_powdery_mildew",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Strawberry leaf",
+      "export_label": "strawberry_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato Early blight leaf",
+      "export_label": "tomato_early_blight_leaf",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "tomato_early_blight",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato Septoria leaf spot",
+      "export_label": "tomato_septoria_leaf_spot",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "tomato_septoria_leaf_spot",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato leaf",
+      "export_label": "tomato_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato leaf bacterial spot",
+      "export_label": "tomato_leaf_bacterial_spot",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "tomato_bacterial_leaf_spot",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato leaf late blight",
+      "export_label": "tomato_leaf_late_blight",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "tomato_late_blight",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato leaf mosaic virus",
+      "export_label": "tomato_leaf_mosaic_virus",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "tomato_mosaic_virus",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato leaf yellow virus",
+      "export_label": "tomato_leaf_yellow_virus",
+      "condition_kind": "ambiguous_condition",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato mold leaf",
+      "export_label": "tomato_mold_leaf",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "tomato_leaf_mold",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "Tomato two spotted spider mites leaf",
+      "export_label": "tomato_two_spotted_spider_mites_leaf",
+      "condition_kind": "pest",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "grape leaf",
+      "export_label": "grape_leaf",
+      "condition_kind": "condition_unspecified",
+      "compatible_classification_label": null,
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "plantdoc",
+      "source_label": "grape leaf black rot",
+      "export_label": "grape_leaf_black_rot",
+      "condition_kind": "source_disease_category",
+      "compatible_classification_label": "grape_black_rot",
+      "healthy": null,
+      "biological_validation": "pending"
+    },
+    {
+      "dataset": "gymnsa",
+      "source_label": "GYMNSA",
+      "export_label": "pear_rust",
+      "crop": "pear",
+      "condition_kind": "source_disease_category",
+      "source_condition": "Gymnosporangium sabinae",
+      "healthy": false
+    },
+    {
+      "dataset": "potato-uav",
+      "source_label": "0",
+      "export_label": "no_alternaria",
+      "crop": "potato",
+      "condition_kind": "target_absent_including_background",
+      "healthy": null
+    },
+    {
+      "dataset": "potato-uav",
+      "source_label": "1",
+      "export_label": "alternaria",
+      "crop": "potato",
+      "condition_kind": "source_disease_category",
+      "healthy": false
+    }
+  ],
+  "warning": "A healthy:false diseased source class is not a model-wide healthy decision. No prepared healthy class exists. Cross-task links do not turn image labels into box labels."
+}

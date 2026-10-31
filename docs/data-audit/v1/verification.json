@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "verified_images": 21888,
+  "source_images_accounted": 22492,
+  "checked": [
+    "source/export counts",
+    "export checksums",
+    "full image decode",
+    "orientation/geometry",
+    "paired labels",
+    "box bounds and coordinate round trip",
+    "class coverage",
+    "global exact/pixel/visual split isolation",
+    "aerial flight/source-photo isolation"
+  ],
+  "errors": [],
+  "limitations": [
+    "Does not validate biological labels",
+    "Does not prove all visual duplicates were found",
+    "Does not establish independent farms/trees or deployment accuracy"
+  ]
+}

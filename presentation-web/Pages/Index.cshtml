@@ -1,0 +1,110 @@
+@page
+@{ Layout = null; }
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Discover AgroSentinel: a connected approach to crop monitoring through fixed cameras, mobile phones, USB cameras, drones, ground robotics and agricultural AI.">
+<title>AgroSentinel | Intelligence for every acre.</title>
+<link rel="icon" href="/favicon.ico" sizes="any" asp-append-version="true">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" asp-append-version="true">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" asp-append-version="true">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" asp-append-version="true">
+<link rel="manifest" href="/site.webmanifest" asp-append-version="true">
+<link rel="preload" href="/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/site.css" asp-append-version="true">
+<script src="/js/site.js" asp-append-version="true" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+<symbol id="up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+<symbol id="play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+<symbol id="leaf" viewBox="0 0 24 24"><path d="M20 3C9 2 3 7 5 14c2 6 13 7 15-11Z"/><path d="m4 21 11-12"/></symbol>
+<symbol id="camera" viewBox="0 0 24 24"><path d="M3 7h5l2-3h4l2 3h5v13H3Z"/><circle cx="12" cy="13" r="4"/></symbol>
+<symbol id="chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/><rect x="10" y="10" width="4" height="4"/></symbol>
+<symbol id="phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4m-3 14h2"/></symbol>
+<symbol id="fire" viewBox="0 0 24 24"><path d="M13 2c2 6-4 7-2 11 1-2 3-3 4-4 8 9 2 14-4 13C2 20 3 13 8 8c-1 4 1 5 1 5 0-5 5-6 4-11Z"/></symbol>
+<symbol id="signal" viewBox="0 0 24 24"><path d="M3 7a14 14 0 0 1 18 0M6 11a9 9 0 0 1 12 0m-9 4a4 4 0 0 1 6 0"/><circle cx="12" cy="20" r="1"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+</svg>
+<header class="header">
+<div class="header-inner">
+<a class="brand" href="#home" aria-label="AgroSentinel home"><img class="brand-logo" src="/images/agrosentinel-logo.png" alt="" aria-hidden="true" width="44" height="44" asp-append-version="true"><span>Agro<span class="brand-name-accent">Sentinel</span></span></a>
+<nav class="navigation" id="navigation" aria-label="Main navigation"><a href="#about">The project</a><a href="#platforms">Camera sources</a><a href="#technology">Technology</a><a href="#system">The system</a><a href="#team">Our team</a></nav>
+<a class="button small header-cta" href="#films">Watch the films <svg><use href="#up-right"/></svg></a>
+<button class="menu-toggle icon-button" aria-controls="navigation" aria-expanded="false" aria-label="Open navigation"><svg><use href="#menu"/></svg></button>
+</div>
+</header>
+<main id="main">
+<section class="hero container" id="home">
+<div class="hero-heading"><div><div class="eyebrow"><span class="green-dot"></span> INTELLIGENCE FOR EVERY ACRE</div><h1>Know your field.<br>Protect its <span>future.</span></h1></div><div class="hero-intro"><p>A fresh perspective on agriculture. Connecting fixed cameras, mobile phones, drones and ground robotics through agricultural artificial intelligence.</p><div class="hero-actions"><a class="button primary" href="#platforms">Explore AgroSentinel <svg><use href="#up-right"/></svg></a><a class="quiet-link" href="#about">Discover our vision <svg><use href="#arrow"/></svg></a></div></div></div>
+<div class="hero-photograph"><img asp-append-version="true" src="/images/field-photo.jpg" alt="Parallel rows of green crops across an open field" width="1800" height="1012" fetchpriority="high"><div class="photo-topline"><span>ONE CONNECTED FIELD</span><span>AGROSENTINEL / AGRICULTURAL MONITORING</span></div><div class="photo-bottomline"><p>Every perspective.<br>One healthier future.</p><a href="#films" class="photo-play" aria-label="Watch the AgroSentinel films"><span><svg><use href="#play"/></svg></span><strong>Watch the story</strong></a></div></div>
+<div class="hero-footer"><span>A PROJECT BY THE HASHEMITE UNIVERSITY</span><p>Cameras <span>+</span> Computer vision <span>+</span> Connected agriculture</p></div>
+</section>
+<section class="section container about" id="about">
+<div class="section-heading"><div><span class="eyebrow">A BETTER PERSPECTIVE</span><h2>Closer to the field.<br>Closer to what <span>matters.</span></h2></div><p>Healthy crops start with understanding what is happening around them. AgroSentinel explores how intelligent monitoring can turn images and sensor observations into useful agricultural insight.</p></div>
+<div class="benefits"><article><h3>Understand crop conditions.</h3><p>Bring attention to visible plant conditions through image analysis and evidence that can be reviewed.</p></article><article><h3>Recognize visible hazards.</h3><p>Identify fire and smoke in camera frames, with confirmation before creating an alert.</p></article><article><h3>Connect the bigger picture.</h3><p>Bring cameras, ground observations and the mobile application into a shared monitoring approach.</p></article></div>
+</section>
+<section class="section platforms-wrap" id="platforms"><div class="container">
+<div class="section-heading"><div><span class="eyebrow">MANY PERSPECTIVES. ONE CONNECTED FIELD.</span><h2>Wherever you look.<br><span>A clearer picture.</span></h2></div><p>A fixed view of the field. A photo from your phone. A camera carried through the crops or flown above them. AgroSentinel is designed to bring these perspectives into one monitoring approach.</p></div>
+<div class="camera-grid" aria-label="Everyday camera sources">
+<article class="platform camera-card"><div class="platform-photo"><img asp-append-version="true" src="/images/fixed-camera-photo.jpg" alt="A pole-mounted monitoring camera overlooking rows of crops in a field" width="1100" height="733" loading="lazy"><span class="image-label">A FIXED PERSPECTIVE</span><span class="source-icon" aria-hidden="true"><svg><use href="#camera"/></svg></span></div><div class="platform-heading"><h3>Fixed cameras.</h3><span class="platform-number">01</span></div><p>Keep a familiar area in view. Accessible IP and CCTV camera feeds can provide frames for crop observation and visible fire-and-smoke analysis.</p><ul class="tags"><li>IP & CCTV feeds</li><li>Field observation</li></ul></article>
+<article class="platform camera-card"><div class="platform-photo"><img asp-append-version="true" src="/images/phone-camera-photo.jpg" alt="A farmer photographing a tomato plant with a mobile phone in the field" width="1536" height="1024" loading="lazy"><span class="image-label">IN YOUR HANDS</span><span class="source-icon" aria-hidden="true"><svg><use href="#phone"/></svg></span></div><div class="platform-heading"><h3>Mobile phones.</h3><span class="platform-number">02</span></div><p>Take a closer look, wherever you are. Capture a plant photo for analysis, then review detection images and event details in the mobile application.</p><ul class="tags"><li>Plant photographs</li><li>Mobile review</li></ul></article>
+<article class="platform camera-card"><div class="platform-photo"><img asp-append-version="true" src="/images/usb-camera-photo.webp" alt="A USB webcam mounted on the top edge of a computer display" width="1920" height="1280" loading="lazy"><span class="image-label">CLOSE AND CONNECTED</span><span class="source-icon" aria-hidden="true"><svg><use href="#camera"/></svg></span></div><div class="platform-heading"><h3>USB & other cameras.</h3><span class="platform-number">03</span></div><p>Bring the camera to the crop. USB webcams and other accessible video sources offer flexible inputs for close-range observation and image analysis.</p><ul class="tags"><li>USB webcams</li><li>Video sources</li></ul></article>
+</div>
+<div class="platform-divider"><span>CAMERAS ON THE MOVE</span><p>The same vision, carried across the field.</p></div>
+<div class="platform-grid">
+<article class="platform"><div class="platform-photo"><img src="/images/drone-photo.jpg" alt="A multirotor agricultural drone flying over a cultivated field" width="1600" height="900" loading="lazy"><span class="image-label">AERIAL PERSPECTIVE</span><button class="round-play" data-play="drone" aria-label="Watch the drone film"><svg><use href="#play"/></svg></button></div><div class="platform-heading"><h3>The drone.</h3><span class="platform-number">04</span></div><p>A view from above brings crop areas and visible hazards into focus. Accessible camera feeds become a source for agricultural image analysis.</p><ul class="tags"><li>Aerial imagery</li><li>Crop observation</li><li>Fire & smoke monitoring</li></ul></article>
+<article class="platform"><div class="platform-photo"><img src="/images/rover-photo.jpg" alt="A Phoenix agricultural research robot moving between crop rows" width="1140" height="695" loading="lazy"><span class="image-label">GROUND PERSPECTIVE</span><button class="round-play" data-play="rover" aria-label="Watch the rover film"><svg><use href="#play"/></svg></button></div><details class="photo-credit"><summary>Image credit</summary><p>Photography: DLG e.V. / Prof. Dr. sc. agr. Hans W. Griepentrog. <a href="https://commons.wikimedia.org/wiki/File:AgriRobot.jpg" target="_blank" rel="noopener noreferrer">Original photograph</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Displayed with responsive cropping.</p></details><div class="platform-heading"><h3>The ground rover.</h3><span class="platform-number">05</span></div><p>A ground platform brings observation closer to the crop. Its role extends to integrating soil and environmental sensors alongside visual information.</p><ul class="tags"><li>Close-range observation</li><li>Soil-sensor integration</li><li>Ground robotics</li></ul></article>
+</div>
+</div></section>
+<section class="section container technology" id="technology">
+<div class="section-heading"><div><span class="eyebrow">PURPOSEFUL INTELLIGENCE</span><h2>See the detail.<br><span>Understand the signal.</span></h2></div><p>Different perspectives call for different models. Our approach separates close-up plant analysis, distant imagery, and fire-and-smoke detection.</p></div>
+<div class="intelligence-layout"><figure class="intelligence-photo"><img id="intelligence-image" src="/images/leaf-photo.jpg" alt="A young tomato plant photographed close up, with water droplets on its leaves" width="1200" height="900" loading="lazy"><figcaption><span id="intelligence-caption">A CLOSER LOOK AT THE CROP</span><svg><use href="#up-right"/></svg></figcaption></figure>
+<div class="model-accordion">
+<article class="model-item is-open"><h3><button id="model-closeup" class="model-trigger" aria-expanded="true" aria-controls="panel-closeup" data-model="closeup"><span class="model-index">01</span><span>Close-up plant analysis</span><span class="plus" aria-hidden="true"></span></button></h3><div id="panel-closeup" class="model-content" role="region" aria-labelledby="model-closeup"><p>A closer image reveals the detail. Plant photographs from a mobile phone, USB camera or ground rover provide the visual input for close-up crop analysis.</p><div class="model-detail"><svg><use href="#camera"/></svg><span>Close-up imagery</span></div><div class="model-detail"><svg><use href="#leaf"/></svg><span>Plant-condition identification</span></div></div></article>
+<article class="model-item"><h3><button id="model-far" class="model-trigger" aria-expanded="false" aria-controls="panel-far" data-model="far"><span class="model-index">02</span><span>Distant & aerial analysis</span><span class="plus" aria-hidden="true"></span></button></h3><div id="panel-far" class="model-content" role="region" aria-labelledby="model-far" hidden><p>A wider image brings more of the field into view. Distant images from fixed cameras and accessible aerial feeds offer another perspective on crop areas.</p><div class="model-detail"><svg><use href="#camera"/></svg><span>Distant and aerial imagery</span></div><div class="model-detail"><svg><use href="#leaf"/></svg><span>Crop-area observations</span></div></div></article>
+<article class="model-item"><h3><button id="model-fire" class="model-trigger" aria-expanded="false" aria-controls="panel-fire" data-model="fire"><span class="model-index">03</span><span>Fire & smoke detection</span><span class="plus" aria-hidden="true"></span></button></h3><div id="panel-fire" class="model-content" role="region" aria-labelledby="model-fire" hidden><p>Scene analysis identifies visible fire and smoke. Sustained detections can be confirmed and saved with their image evidence for review.</p><div class="model-detail"><svg><use href="#fire"/></svg><span>Fire and smoke localization</span></div><div class="model-detail"><svg><use href="#check"/></svg><span>Confirmed, image-backed events</span></div></div></article>
+<p class="technology-outro">The right input. The right model.<br>A more useful result.</p>
+</div></div>
+</section>
+<section class="system-section" id="system"><div class="container">
+<div class="system-shell"><div class="system-heading"><div><span class="eyebrow">THE CONNECTED SYSTEM</span><h2>From observation.<br>To <span>understanding.</span></h2></div><p>Camera input, AI analysis and the mobile application come together in a clear path from capture to review.</p></div>
+<div class="flow-tabs" role="tablist" aria-label="Explore the monitoring pipeline">
+<button id="flow-capture" class="flow-step active" role="tab" aria-selected="true" aria-controls="flow-panel" data-step="capture"><span class="flow-node"><svg><use href="#camera"/></svg></span><small>01 / CAPTURE</small><strong>See the field.</strong></button>
+<button id="flow-analyze" class="flow-step" role="tab" aria-selected="false" aria-controls="flow-panel" data-step="analyze" tabindex="-1"><span class="flow-node"><svg><use href="#chip"/></svg></span><small>02 / ANALYZE</small><strong>Find the signal.</strong></button>
+<button id="flow-confirm" class="flow-step" role="tab" aria-selected="false" aria-controls="flow-panel" data-step="confirm" tabindex="-1"><span class="flow-node"><svg><use href="#check"/></svg></span><small>03 / CONFIRM</small><strong>Keep the evidence.</strong></button>
+<button id="flow-review" class="flow-step" role="tab" aria-selected="false" aria-controls="flow-panel" data-step="review" tabindex="-1"><span class="flow-node"><svg><use href="#phone"/></svg></span><small>04 / REVIEW</small><strong>Reach the phone.</strong></button>
+</div>
+<div id="flow-panel" class="flow-panel" role="tabpanel" aria-labelledby="flow-capture" tabindex="0"><h3 id="flow-title">Different sources. One starting point.</h3><p id="flow-description">Capture a plant photo on a mobile phone, connect an accessible fixed or USB camera feed, or use imagery from a drone or rover. Photos, video frames and recordings enter the shared analysis pipeline.</p><div id="flow-tags" class="flow-tags"><span>Fixed / IP cameras</span><span>Mobile phones</span><span>USB cameras</span><span>Drone & rover feeds</span><span>Recorded video</span></div></div>
+</div>
+<div class="software-strip"><span>BUILT TO CONNECT</span><div><span>Flutter</span><span>Python & AI</span><span>ASP.NET Core</span><span>Firebase</span><span>Camera adapters</span></div></div>
+</div></section>
+<section class="section container films" id="films">
+<div class="section-heading"><div><span class="eyebrow">MEET AGROSENTINEL</span><h2>A vision worth<br><span>seeing in motion.</span></h2></div><p>Explore the drone and ground-rover perspectives through our project films.</p></div>
+<div class="film-toolbar"><div class="film-tabs" role="tablist" aria-label="Choose a project film"><button id="film-tab-drone" role="tab" aria-selected="true" aria-controls="film-panel" data-film="drone"><svg><use href="#play"/></svg>The drone<span>00:48</span></button><button id="film-tab-rover" role="tab" aria-selected="false" aria-controls="film-panel" data-film="rover" tabindex="-1"><svg><use href="#play"/></svg>The ground rover<span>01:14</span></button></div><span class="film-toolbar-label">TWO PERSPECTIVES. ONE CONNECTED FIELD.</span></div>
+<div id="film-panel" class="film-panel" role="tabpanel" aria-labelledby="film-tab-drone"><video id="project-video" controls playsinline preload="metadata" poster="/images/drone-photo.jpg" aria-label="AgroSentinel drone project film"><source src="/media/drone.mp4" type="video/mp4">Your browser does not support video playback.</video></div>
+<div class="film-caption"><strong id="film-caption">AgroSentinel / The aerial perspective</strong><span>FROM THE SKY TO THE SOIL</span></div>
+</section>
+<section class="people-section" id="team" aria-labelledby="people-title"><div class="container">
+<div class="people-heading"><div><span class="eyebrow">THE AGROSENTINEL TEAM</span><h2 id="people-title">The people behind<br><span>the perspective.</span></h2></div><p>A shared vision for more connected agriculture.<br>A graduation project at The Hashemite University.</p></div>
+<ul class="people-roster" aria-label="Project team">
+<li class="team-member"><h3>Ezzeldeen <span>Alkurd</span></h3></li>
+<li class="team-member"><h3>Raneen <span>Abdullah</span></h3></li>
+<li class="team-member"><h3>Khalid <span>Masoud</span></h3></li>
+<li class="team-member"><h3>Sara <span>Hamdan</span></h3></li>
+<li class="team-member"><h3>Dina <span>Afram</span></h3></li>
+</ul>
+<div class="mentors-panel"><div class="mentors-intro"><span class="eyebrow">GUIDANCE &amp; SUPERVISION</span><p>Supported by experience.<br>Driven by curiosity.</p></div><ul class="mentors-roster" aria-label="Project supervisors"><li><span class="mentor-label">PROJECT SUPERVISOR</span><h3>Dr. Mohammed Alhammori</h3></li><li><span class="mentor-label">PROJECT SUPERVISOR</span><h3>Dr. Islam Malkawi</h3></li></ul></div>
+<div class="people-university"><span>THE HASHEMITE UNIVERSITY</span><span>Computer Engineering Department</span></div>
+</div></section>
+</main>
+<footer class="footer container"><div class="footer-top"><a class="brand" href="#home"><img class="brand-logo" src="/images/agrosentinel-logo.png" alt="" aria-hidden="true" width="44" height="44" asp-append-version="true"><span>Agro<span class="brand-name-accent">Sentinel</span></span></a><p>From the sky to the soil.</p><a class="back-top" href="#home">Back to top <svg><use href="#up-right"/></svg></a></div><div class="footer-bottom"><span>&copy; 2026 AgroSentinel. The Hashemite University.</span><span>Computer Engineering Department</span></div></footer>
+</body>
+</html>

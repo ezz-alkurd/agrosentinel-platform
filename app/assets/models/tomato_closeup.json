@@ -1,0 +1,80 @@
+{
+  "model_id": "plant-closeup-demo-tomato-3",
+  "version": "2026-10-24",
+  "sha256": "54d22a551e8ba88dfd9a99dba55f17ca2b17bb8c100442460185ecb595c89c28",
+  "source_sha256": "67055b61ae7ac89c5e3dc516592a773bbee34250721684a72afe7faab4c9c836",
+  "input_name": "images",
+  "output_name": "probabilities",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "labels": [
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___healthy"
+  ],
+  "threshold": 0.9,
+  "preprocessing": "EXIF orientation; RGB; Pillow bilinear short-edge resize 224; center crop 224 with ties-to-even offsets; NCHW float32 /255; mean 0, std 1",
+  "supported_crop": "tomato",
+  "limitations": "Legacy model. Close-up tomato leaves only; no general-field or out-of-distribution validation.",
+  "onnx_bytes": 5779466,
+  "export_checks": [
+    {
+      "image": "plantwild-v2_0cb9fe6feaef81f3b6bf.jpg",
+      "max_probability_difference": 4.76837158203125e-07,
+      "probabilities": [
+        0.4926042854785919,
+        0.5071331858634949,
+        0.00026254329713992774
+      ]
+    },
+    {
+      "image": "plantwild-v2_2cafd9faaee5bfea8703.jpg",
+      "max_probability_difference": 8.344650268554688e-07,
+      "probabilities": [
+        0.8005037307739258,
+        0.1947663426399231,
+        0.004729917738586664
+      ]
+    },
+    {
+      "image": "plantwild-v2_33947e74097348d7ecdf.jpg",
+      "max_probability_difference": 7.152557373046875e-07,
+      "probabilities": [
+        0.12437476217746735,
+        0.873490035533905,
+        0.002135168295353651
+      ]
+    },
+    {
+      "image": "plantwild-v2_0f4c39aea021090e91f5.jpg",
+      "max_probability_difference": 4.76837158203125e-07,
+      "probabilities": [
+        0.29655373096466064,
+        0.6999759078025818,
+        0.0034703274723142385
+      ]
+    },
+    {
+      "image": "plantwild-v2_1747792ca1c831bee84b.jpg",
+      "max_probability_difference": 2.735760062932968e-09,
+      "probabilities": [
+        0.0005691689439117908,
+        0.9990774393081665,
+        0.0003533580165822059
+      ]
+    },
+    {
+      "image": "plantwild-v2_316f03f28dfe5b92134f.jpg",
+      "max_probability_difference": 1.3969838619232178e-08,
+      "probabilities": [
+        0.014097741805016994,
+        0.9835875630378723,
+        0.0023147088941186666
+      ]
+    }
+  ]
+}
