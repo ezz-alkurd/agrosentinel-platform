@@ -27,7 +27,7 @@ This repository contains the Flutter app, Python detection and plant services, a
 
 ## Local configuration and data
 
-The pre-existing datasets, prepared exports and old model weights remain in `D:\graduation-project\data` and `D:\graduation-project\models`. Private server credentials remain outside this source repository. No raw-image dataset, model weight, application build, Python virtual environment or old Git history is included in the initial commit.
+The pre-existing datasets, prepared exports and old model weights remain in `D:\graduation-project\data` and `D:\graduation-project\models`. Private server credentials remain outside this source repository. No raw-image dataset, large model weight, application build, Python virtual environment or old Git history is included in the initial commit. The selected 5.5 MB ONNX model for offline Android analysis is the sole model-file exception.
 
 Generate the app's Firebase client configuration using FlutterFire for your actual Firebase project, or restore the existing ignored `app/lib/firebase_options.dart` and `app/android/app/google-services.json` locally. These generated files are intentionally excluded from Git. Set `MAPS_API_KEY` as an environment variable or private Gradle property. Run `flutter pub get` in `app/` after configuration. A production release requires proper signing; the inherited Android project currently uses debug signing and must be changed before release.
 
